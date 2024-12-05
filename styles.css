@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    background-color: gray;
+}
+
+button:hover{
+    background-color: rgb(58, 58, 58);
+}
+
+.cell{
+    width: 140px;
+    height: 140px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px whitesmoke;
+    font-size: 100px;
+    cursor: pointer;
+    background-color: grey;
+    
+}
+
+
+
+
+.cell:hover{
+    background-color: rgb(58, 58, 58);
+}
+
+#MainGame{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#CellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 425px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 480px){
+    #CellContainer{
+        width: 480px;
+    }
+}
